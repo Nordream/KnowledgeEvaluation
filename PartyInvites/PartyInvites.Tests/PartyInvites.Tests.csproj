@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D50DC2D6-B6BD-43A5-A479-AF6C2AE595D8}</ProjectGuid>
+    <ProjectGuid>{4C2B0FA2-0558-418B-BEF5-BDEBFE79DCB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PartyInvites.Tests</RootNamespace>
@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PartyInvites\PartyInvites.csproj">
-      <Project>{A05A0559-0D9A-4506-979A-D1FA29B52F74}</Project>
+      <Project>{1150DD30-81F3-4489-9164-BE2CDC6E0E73}</Project>
       <Name>PartyInvites</Name>
     </ProjectReference>
   </ItemGroup>
