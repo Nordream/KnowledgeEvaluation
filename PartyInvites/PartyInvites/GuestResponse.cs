@@ -10,7 +10,7 @@ namespace PartyInvites
         public string Email { get; set; }
         [Required]
         public string Phone { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Please tell us if you will attend")]
         public bool? WillAttend { get; set; }
     }
 }
