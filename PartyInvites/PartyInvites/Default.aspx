@@ -14,6 +14,8 @@
             <h1>New Year's Eve at Jacqui's!</h1>
             <p>We're going to have an exciting party. And you're invited!</p>
         </div>
+        <asp:ValidationSummary ID="validationSummary" runat="server"
+            ShowModelStateErrors="true" color/>
         <div>
             <label>Your name:</label>
             <input type="text" id="name" runat="server" />
